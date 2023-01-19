@@ -10,13 +10,14 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyB3UAINCYYmMBmfthcZvZ0BdYvVSMcgmsI",
-  authDomain: "crwn-clothing-e8fe4.firebaseapp.com",
-  projectId: "crwn-clothing-e8fe4",
-  storageBucket: "crwn-clothing-e8fe4.appspot.com",
-  messagingSenderId: "736622247888",
-  appId: "1:736622247888:web:c515c6abfc6e67aaaa83d5",
+  apiKey: "AIzaSyDT1P2UDdZGQSqBdXSsIFwHFo6liVFLP0U",
+  authDomain: "shopping-react-project-6ab1a.firebaseapp.com",
+  projectId: "shopping-react-project-6ab1a",
+  storageBucket: "shopping-react-project-6ab1a.appspot.com",
+  messagingSenderId: "182003241565",
+  appId: "1:182003241565:web:9f6daaa1bec863467af3b4",
 };
 const firebaseApp = initializeApp(firebaseConfig);
 
